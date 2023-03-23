@@ -59,7 +59,7 @@ export default function Chat() {
               class="block w-full p-4 text-opacity-80 border-shadow2 rounded-full bg-ngrey sm:text-md focus:outline-none"
             ></input>
             <button type="submit" class=" absolute right-2.5 bottom-2 px-4">
-              <img src={rarrow} className="ml-auto h-7 w-7 hover:scale-125" />
+              <img src={rarrow} className="ml-auto h-7 w-7 hover:scale-125 " />
             </button>
           </div>
         </form>
@@ -68,8 +68,8 @@ export default function Chat() {
         <button className="px-20 font-light text-base leading-5 flex items-center cursor-pointer hover:underline">
           Let's Turn your Plans into Reality
         </button>
-        <div className="flex px-8">
-          <button className=" font-bold text-base leading-5 flex items-center cursor-pointer">
+        <div className="flex px-8 cursor-pointer hover:scale-110 hover:to-blue-500">
+          <button className=" font-bold text-base leading-5 flex items-center ">
             Start Now?
           </button>
           {/* //<img src={arrow} /> */}
