@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  /* background-color: #E9E9E9; */
+  font-family: 'Poppins', sans-serif;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.chat{
+  padding-bottom: 35px;
+}
+
+.main{
+  border-radius: 40px;
+}
+
+.rslogo{
+  /* //width: 9%; */
+  padding: 10px;
+}
+
+.chat-box-left{
+  border-radius: 50px 10px 10px 10px;
+}
+
+.chat-box-right{
+  border-radius: 10px 50px 10px 10px;
 }
