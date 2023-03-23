@@ -59,7 +59,7 @@ export default function Chat() {
               class="block w-full p-4 text-opacity-80 border-shadow2 rounded-full bg-ngrey sm:text-md focus:outline-none"
             ></input>
             <button type="submit" class=" absolute right-2.5 bottom-2 px-4">
-              <img src={rarrow} className="ml-auto h-7 w-7" />
+              <img src={rarrow} className="ml-auto h-7 w-7 hover:scale-125" />
             </button>
           </div>
         </form>
